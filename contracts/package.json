@@ -1,0 +1,20 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "Reinvest smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "jefedcreator",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.18.0",
+    "@chainlink/contracts": "^0.8.0",
+    "@openzeppelin/contracts": "^5.0.1"
+  }
+}
